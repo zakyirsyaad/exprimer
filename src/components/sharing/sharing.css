@@ -1,0 +1,72 @@
+.sharing_container{
+    padding: 10px 200px;
+}
+.sharing_box_container{
+    border-radius: 25px;
+    box-shadow: #913175 10px 10px 0px 0px;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sharing_header{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: #FF5F9E;
+    text-align: center;
+}
+.sharing_desc{
+    font-size: 20px;
+    text-align: center;
+    color: #913175;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.posting_display{
+    background-color: #913175;
+    width: 500px;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+.posting_name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #FF5F9E;
+}
+.posting_story{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.like_button{
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.like_icon{
+    font-size: 30px;
+    color: #fff;
+    margin-right: 5px;
+}
+.button_sharing{
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: #fff;
+    border: none;
+    font-weight: 600;
+    box-shadow: #FF5F9E 5px 5px 0px 0px;
+}
+.button_sharing:hover{
+    background-color: #FF5F9E;
+    box-shadow: white 5px 5px 0px 0px;
+    transition: all ease-in-out 0.5s;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+.navbar_banner {
+    background: linear-gradient(to right, rgb(244, 114, 182), rgb(219, 39, 119));
+}
