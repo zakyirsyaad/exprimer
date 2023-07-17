@@ -26,8 +26,8 @@ function Data() {
         AOS.init({ duration: 2000 });
     }, [])
     return (
-        <section className="data_container" data-AOS="fade-up">
-            <span class="material-symbols-outlined">
+        <section className="data_container" data-AOS="fade-up" id='scroll_target'>
+            <span class="material-symbols-outlined data_icon">
                 handshake
             </span>
             <p className="data_counting">Team kami telah membantu sebanyak <span>{pad(count1)}</span> orang mulai dari <span>Remaja</span> hingga <span>Dewasa</span> yang memiliki masalah dari segi apapun.</p>

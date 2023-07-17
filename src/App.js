@@ -1,4 +1,5 @@
 import './App.css';
+import './page/home/responsivehome.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import User from './components/user/user';
 import Home from './page/home/home';
@@ -17,3 +18,4 @@ function App() {
 }
 
 export default App;
+

@@ -54,17 +54,19 @@ function User() {
                     )}
                     {loginModal && (
                         <div className='user_modal_container'>
-                            <div className='sign_box_container'>
-                                <button onClick={toggleLoginmodal} className='cancel_button' >
-                                    Cancel
-                                </button>
-                                <label className='header_sign'>Login</label>
-                                <input type={Text} placeholder='Username'></input>
-                                <input type={'password'} placeholder='Password'></input>
-                                <button className='submit_button'>
-                                    Submit
-                                </button>
-                            </div>
+                            <form>
+                                <div className='sign_box_container'>
+                                    <button onClick={toggleLoginmodal} className='cancel_button' >
+                                        Cancel
+                                    </button>
+                                    <label className='header_sign'>Login</label>
+                                    <input type={Text} placeholder='Username'></input>
+                                    <input type={'password'} placeholder='Password'></input>
+                                    <button className='submit_button'>
+                                        Submit
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     )}
                     {registerModal && (

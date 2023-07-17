@@ -101,3 +101,43 @@
 .faq_continue a:hover {
     color: black;
 }
+
+@media screen and (max-width: 600px) {
+    .faq_container {
+        padding: 10px 40px;
+    }
+
+    .faq_judul {
+        font-size: 30px;
+    }
+
+    .tablist_container {
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .tabpanels_container {
+        padding: 10px 20px;
+    }
+
+    .tab_button {
+        margin: 5px;
+    }
+
+    .box_header {
+        font-size: 15px;
+    }
+
+    .box_button {
+        font-size: 14px;
+    }
+
+    .box_answer {
+        font-size: 12px;
+    }
+
+    .faq_continue {
+        text-align: center;
+    }
+}

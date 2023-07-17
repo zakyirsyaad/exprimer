@@ -1,7 +1,8 @@
-.sharing_container{
+.sharing_container {
     padding: 10px 200px;
 }
-.sharing_box_container{
+
+.sharing_box_container {
     border-radius: 25px;
     box-shadow: #913175 10px 10px 0px 0px;
     padding: 50px 100px;
@@ -9,37 +10,43 @@
     flex-direction: column;
     align-items: center;
 }
-.sharing_header{
+
+.sharing_header {
     font-size: 40px;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
     color: #FF5F9E;
     text-align: center;
 }
-.sharing_desc{
+
+.sharing_desc {
     font-size: 20px;
     text-align: center;
     color: #913175;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
-.posting_display{
+
+.posting_display {
     background-color: #913175;
     width: 500px;
     padding: 20px 40px;
     border-radius: 5px;
 }
-.posting_name{
+
+.posting_name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     margin-bottom: 15px;
     color: #FF5F9E;
 }
-.posting_story{
+
+.posting_story {
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
-.like_button{
+
+.like_button {
     background: none;
     border: none;
     display: flex;
@@ -50,12 +57,14 @@
     font-weight: 600;
     cursor: pointer;
 }
-.like_icon{
+
+.like_icon {
     font-size: 30px;
     color: #fff;
     margin-right: 5px;
 }
-.button_sharing{
+
+.button_sharing {
     margin-top: 20px;
     padding: 15px 40px;
     background-color: #fff;
@@ -63,10 +72,57 @@
     font-weight: 600;
     box-shadow: #FF5F9E 5px 5px 0px 0px;
 }
-.button_sharing:hover{
+
+.button_sharing:hover {
     background-color: #FF5F9E;
     box-shadow: white 5px 5px 0px 0px;
     transition: all ease-in-out 0.5s;
     color: #fff;
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .sharing_container {
+        padding: 10px 40px;
+    }
+
+    .sharing_box_container {
+        padding: 10px 20px;
+    }
+
+    .sharing_header {
+        font-size: 30px;
+    }
+
+    .sharing_desc {
+        font-size: 14px;
+    }
+
+    .posting_display {
+        width: 175px;
+        height: 60px;
+        padding: 20px 50px;
+    }
+
+    .posting_name {
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+
+    .posting_story {
+        font-size: 10px;
+    }
+
+    .like_button {
+        font-size: 10px;
+    }
+
+    .like_icon {
+        font-size: 15px;
+    }
+
+    .button_sharing {
+        padding: 10px 25px;
+        margin: 20px 0px;
+    }
 }

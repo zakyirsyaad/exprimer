@@ -1,22 +1,43 @@
-.data_container{
+.data_container {
     padding: 50px 400px;
     text-align: center;
     color: #FF5F9E;
     font-family: 'Poppins', sans-serif;
 }
-.data_counting{
+
+.data_counting {
     font-size: 30px;
     font-weight: 600;
 }
-.data_counting span{
+
+.data_counting span {
     color: #913175;
     font-size: 40px;
 }
-.material-symbols-outlined {
+
+.data_icon {
     font-variation-settings:
-    'FILL' 0,
-    'wght' 300,
-    'GRAD' 200,
-    'opsz' 48;
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' 200,
+        'opsz' 48;
     font-size: 100px;
-  }
+}
+
+@media screen and (max-width: 600px) {
+    .data_container {
+        padding: 50px 30px;
+    }
+
+    .data_icon {
+        font-size: 70px;
+    }
+
+    .data_counting {
+        font-size: 17px;
+    }
+
+    .data_counting span {
+        font-size: 17px;
+    }
+}

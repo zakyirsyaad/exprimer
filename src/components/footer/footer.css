@@ -78,3 +78,14 @@ ol {
     color: #fff;
     cursor: pointer;
 }
+
+@media screen and (max-width:600px) {
+    .footer_container {
+        flex-direction: column;
+    }
+
+    .subscribe_container button {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}

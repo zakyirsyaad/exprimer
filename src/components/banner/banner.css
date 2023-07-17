@@ -32,3 +32,33 @@
     border-radius: 25px 0px;
     box-shadow: black 5px 5px 0px 0px;
 }
+
+@media screen and (max-width: 600px) {
+    .banner_container {
+        padding: 50px 30px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .image_banner {
+        width: 300px;
+    }
+
+    .text_banner_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text_banner {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .button_banner {
+        padding: 10px 25px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}
